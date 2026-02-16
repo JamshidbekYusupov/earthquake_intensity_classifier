@@ -1,0 +1,33 @@
+2026-02-17 05:59:35,794-INFO-Data Loading Boshlandi
+2026-02-17 06:04:11,281-INFO-Data Loading Boshlandi
+2026-02-17 06:04:11,281-ERROR-Error 'getting_data' object has no attribute 'data_path' while concating
+2026-02-17 06:05:00,809-INFO-Data Loading Boshlandi
+2026-02-17 06:05:06,897-INFO-Data Loading Boshlandi
+2026-02-17 06:05:06,912-INFO-Datasets are concatted SUCCEDDFULLY
+2026-02-17 06:05:06,918-INFO-Date Handling is DONE
+2026-02-17 06:05:06,930-INFO-Datset is saved at C:\project_5\Data\Raw_data
+2026-02-17 06:06:36,246-INFO-Data Loading Boshlandi
+2026-02-17 06:06:43,490-INFO-Data Loading Boshlandi
+2026-02-17 06:06:43,503-INFO-Datasets are concatted SUCCEDDFULLY
+2026-02-17 06:06:43,508-INFO-Date Handling is DONE
+2026-02-17 06:06:43,518-INFO-Datset is saved at C:\project_5\Data\Raw_data
+2026-02-17 06:12:48,730-INFO-Data Loading Boshlandi
+2026-02-17 06:12:54,297-INFO-Data Loading Boshlandi
+2026-02-17 06:12:54,307-INFO-Datasets are concatted SUCCEDDFULLY
+2026-02-17 06:12:54,312-ERROR-Error of "[''] not found in axis" while date hanling
+2026-02-17 06:13:36,315-INFO-Data Loading Boshlandi
+2026-02-17 06:13:36,333-INFO-Datasets are concatted SUCCEDDFULLY
+2026-02-17 06:13:36,341-ERROR-Error of "[''] not found in axis" while date hanling
+2026-02-17 06:13:53,912-INFO-Data Loading Boshlandi
+2026-02-17 06:13:59,285-INFO-Data Loading Boshlandi
+2026-02-17 06:13:59,295-INFO-Datasets are concatted SUCCEDDFULLY
+2026-02-17 06:13:59,299-ERROR-Error of "[''] not found in axis" while date hanling
+2026-02-17 06:14:47,194-INFO-Data Loading Boshlandi
+2026-02-17 06:14:47,204-INFO-Datasets are concatted SUCCEDDFULLY
+2026-02-17 06:14:47,209-ERROR-Error of "[''] not found in axis" while date hanling
+2026-02-17 06:16:20,139-INFO-Data Loading Boshlandi
+2026-02-17 06:16:24,540-INFO-Data Loading Boshlandi
+2026-02-17 06:16:24,553-INFO-Datasets are concatted SUCCEDDFULLY
+2026-02-17 06:16:24,558-INFO-Date Handling is DONE
+2026-02-17 06:16:24,563-INFO-Longitute and Latitudes are handlied
+2026-02-17 06:16:24,574-INFO-Datset is saved at C:\project_5\Data\Raw_data

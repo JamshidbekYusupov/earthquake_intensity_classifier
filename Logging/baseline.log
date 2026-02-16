@@ -1,0 +1,40 @@
+2026-02-17 06:36:57,747-INFO-Pipeline Building has been started
+2026-02-17 06:37:04,911-INFO-Pipeline Building has been started
+2026-02-17 06:37:04,912-INFO-Numerical pipeline is DONE
+2026-02-17 06:37:04,912-INFO-Categorical pipeline is DONE
+2026-02-17 06:37:04,912-INFO-Column Transforming is done
+2026-02-17 06:37:04,913-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-17 06:37:04,913-ERROR-ERROR while fitting the model:'Random_Forest'
+2026-02-17 06:37:04,913-ERROR-ERROR while predicting for Random_Forest, error:'NoneType' object has no attribute 'predict'
+2026-02-17 06:38:37,917-INFO-Pipeline Building has been started
+2026-02-17 06:38:46,588-INFO-Pipeline Building has been started
+2026-02-17 06:38:46,589-INFO-Numerical pipeline is DONE
+2026-02-17 06:38:46,590-INFO-Categorical pipeline is DONE
+2026-02-17 06:38:46,590-INFO-Column Transforming is done
+2026-02-17 06:38:46,590-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-17 06:38:46,592-ERROR-ERROR while fitting the model:'Random_Forest'
+2026-02-17 06:38:46,593-ERROR-ERROR while predicting for Random_Forest, error:'NoneType' object has no attribute 'predict'
+2026-02-17 06:40:15,770-INFO-Pipeline Building has been started
+2026-02-17 06:40:21,881-INFO-Pipeline Building has been started
+2026-02-17 06:40:21,883-INFO-Numerical pipeline is DONE
+2026-02-17 06:40:21,883-INFO-Categorical pipeline is DONE
+2026-02-17 06:40:21,883-INFO-Column Transforming is done
+2026-02-17 06:40:21,883-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-17 06:40:21,883-INFO-Numerical pipeline is DONE
+2026-02-17 06:40:21,883-INFO-Categorical pipeline is DONE
+2026-02-17 06:40:21,883-INFO-Column Transforming is done
+2026-02-17 06:40:21,883-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-17 06:40:21,885-ERROR-ERROR while fitting the model:'Random_Forest'
+2026-02-17 06:40:21,885-ERROR-ERROR while predicting for Random_Forest, error:'NoneType' object has no attribute 'predict'
+2026-02-17 06:40:57,295-INFO-Pipeline Building has been started
+2026-02-17 06:41:02,713-INFO-Pipeline Building has been started
+2026-02-17 06:41:02,715-INFO-Numerical pipeline is DONE
+2026-02-17 06:41:02,715-INFO-Categorical pipeline is DONE
+2026-02-17 06:41:02,715-INFO-Column Transforming is done
+2026-02-17 06:41:02,715-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-17 06:41:02,715-INFO-Numerical pipeline is DONE
+2026-02-17 06:41:02,715-INFO-Categorical pipeline is DONE
+2026-02-17 06:41:02,715-INFO-Column Transforming is done
+2026-02-17 06:41:02,715-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-17 06:41:02,717-ERROR-ERROR while fitting the model:'Random_Forest'
+2026-02-17 06:41:02,717-ERROR-ERROR while predicting for Random_Forest, error:This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
