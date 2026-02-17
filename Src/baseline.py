@@ -12,8 +12,10 @@ from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from tabulate import tabulate
+from imblearn.over_sampling import SMOTE
 
 log_path = r'C:\project_5\Logging\baseline.log'
+
 
 logging.basicConfig(
     filename= log_path,
@@ -42,10 +44,21 @@ class auto_pipeline(BaseEstimator):
         self.y_pred = None
 
     def feature_prepare(self):
+
         try:
-                
+            #  Dropping NaN values, as this is baseline
+            self.df = self.df.dropna(subset=[self.target])
             X = self.df.drop(columns=self.target)
             y = self.df[self.target]
+
+            maps = {'Ⅰ': 0, 'Ⅱ': 1, 'Ⅲ':2, 'Ⅳ': 3, 'Ⅴ': 4}
+            y = y.map(maps)
+# Oversamling with SMOTE inside Pipeline
+                        ##### IMPORTAN#######
+            smote = SMOTE(random_state=42,k_neighbors=1)
+            X, y = smote.fit_resample(X, y)
+
+            logging.info(f'Oversampling is done: {y.value_counts()}')
 
             num_cols = X.select_dtypes(include=[np.number]).columns.to_list()
             cat_cols = X.select_dtypes(exclude=[np.number]).columns.to_list()
@@ -73,12 +86,12 @@ class auto_pipeline(BaseEstimator):
             return X, y
         
         except Exception as e:
-            logging.error(f'ERROR while PIPELINE: {e}')
+            logging.error(f'ERROR while building PIPELINE: {e}')
             raise
     
     def fit(self):
         try:
-            
+
             X, y = self.feature_prepare()
 
             self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y,test_size=0.2, random_state=42)
@@ -88,7 +101,7 @@ class auto_pipeline(BaseEstimator):
             
             self.model = Pipeline([
                 ('preprocessor', self.preprocessor),
-                ('model', self.models[self.model_name])
+                ('model', self.model_algorithm)
             ])
         
             self.model.fit(self.X_train, self.y_train)
@@ -98,6 +111,7 @@ class auto_pipeline(BaseEstimator):
             return self
         except Exception as e:
             logging.error(f'ERROR while fitting the model:{e}')
+            raise
     
     def model_saving(self):
         out_dir = r'C:\project_5\Model\All_Model'
@@ -118,10 +132,10 @@ class auto_pipeline(BaseEstimator):
     
     def evaluvation(self):
         try:
-            self.metrics[f'{self.model_name}_accuracy'] = accuracy_score(self.y_pred, self.y_test)
-            self.metrics[f'{self.model_name}_precison'] = precision_score(self.y_pred, self.y_test, average='weighted', zero_division=True)
-            self.metrics[f'{self.model_name}_recall'] = recall_score(self.y_pred, self.y_test, average='weighted', zero_division=True)
-            self.metrics[f'{self.model_name}_f1'] = f1_score(self.y_pred, self.y_test, average='weighted', zero_division=True)
+            self.metrics[f'{self.model_name}_accuracy'] = accuracy_score(self.y_test, self.y_pred)
+            self.metrics[f'{self.model_name}_precison'] = precision_score(self.y_test, self.y_pred, average='weighted', zero_division=True)
+            self.metrics[f'{self.model_name}_recall'] = recall_score(self.y_test, self.y_pred, average='weighted', zero_division=True)
+            self.metrics[f'{self.model_name}_f1'] = f1_score(self.y_test, self.y_pred, average='weighted', zero_division=True)
         
             metrics = [[f'{self.metrics[f'{self.model_name}_accuracy']}', f'{self.metrics[f'{self.model_name}_precison']}', f'{self.metrics[f'{self.model_name}_recall']}'], f'{self.metrics[f'{self.model_name}_f1']}']
 
