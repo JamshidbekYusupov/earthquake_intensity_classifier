@@ -1426,3 +1426,64 @@ Name: count, dtype: int64
 2026-02-18 20:51:38,639-INFO-Prediction is done with model Logistic_OvO
 2026-02-18 20:51:38,643-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvO
 2026-02-18 20:51:38,644-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 21:14:43,369-INFO-Pipeline Building has been started
+2026-02-18 21:14:43,377-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,377-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,377-INFO-Column Transforming is done
+2026-02-18 21:14:43,377-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:43,378-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,378-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,379-INFO-Column Transforming is done
+2026-02-18 21:14:43,379-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:43,526-INFO-Fittig model is done
+2026-02-18 21:14:43,560-INFO-Prediction is done with model Random_Forest
+2026-02-18 21:14:43,566-INFO-Metrics are calculated SUCCESSFFULLY for Random_Forest
+2026-02-18 21:14:43,568-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 21:14:43,570-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,570-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,571-INFO-Column Transforming is done
+2026-02-18 21:14:43,571-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:43,572-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,572-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,572-INFO-Column Transforming is done
+2026-02-18 21:14:43,572-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:43,578-INFO-Fittig model is done
+2026-02-18 21:14:43,583-INFO-Prediction is done with model Desicion_Tree
+2026-02-18 21:14:43,587-INFO-Metrics are calculated SUCCESSFFULLY for Desicion_Tree
+2026-02-18 21:14:43,589-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 21:14:43,591-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,591-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,591-INFO-Column Transforming is done
+2026-02-18 21:14:43,591-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:43,592-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,592-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,594-INFO-Column Transforming is done
+2026-02-18 21:14:43,594-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:43,824-INFO-Fittig model is done
+2026-02-18 21:14:43,835-INFO-Prediction is done with model XGBoost
+2026-02-18 21:14:43,842-INFO-Metrics are calculated SUCCESSFFULLY for XGBoost
+2026-02-18 21:14:43,844-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 21:14:43,846-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,846-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,846-INFO-Column Transforming is done
+2026-02-18 21:14:43,846-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:43,848-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:43,848-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:43,848-INFO-Column Transforming is done
+2026-02-18 21:14:43,848-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:44,274-INFO-Fittig model is done
+2026-02-18 21:14:44,280-INFO-Prediction is done with model Logistic_OvR
+2026-02-18 21:14:44,285-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvR
+2026-02-18 21:14:44,287-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 21:14:44,289-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:44,289-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:44,289-INFO-Column Transforming is done
+2026-02-18 21:14:44,289-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:44,290-INFO-Numerical pipeline is DONE
+2026-02-18 21:14:44,291-INFO-Categorical pipeline is DONE
+2026-02-18 21:14:44,291-INFO-Column Transforming is done
+2026-02-18 21:14:44,291-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 21:14:44,924-INFO-Fittig model is done
+2026-02-18 21:14:44,930-INFO-Prediction is done with model Logistic_OvO
+2026-02-18 21:14:44,935-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvO
+2026-02-18 21:14:44,936-INFO-Metrics are savded at C:\project_5\Metrics
