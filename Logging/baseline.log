@@ -967,3 +967,462 @@ Name: count, dtype: int64
 2026-02-17 16:12:35,339-INFO-Prediction is done with model Logistic_OvO
 2026-02-17 16:12:35,344-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvO
 2026-02-17 16:12:35,345-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:35:07,072-INFO-Pipeline Building has been started
+2026-02-18 20:35:09,851-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:09,852-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:09,852-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:09,852-INFO-Column Transforming is done
+2026-02-18 20:35:09,852-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:09,862-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:09,862-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:09,862-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:09,862-INFO-Column Transforming is done
+2026-02-18 20:35:09,862-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:10,201-INFO-Fittig model is done
+2026-02-18 20:35:10,239-INFO-Prediction is done with model Random_Forest
+2026-02-18 20:35:10,245-INFO-Metrics are calculated SUCCESSFFULLY for Random_Forest
+2026-02-18 20:35:10,248-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:35:10,263-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:10,264-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:10,264-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:10,264-INFO-Column Transforming is done
+2026-02-18 20:35:10,264-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:10,277-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:10,277-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:10,277-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:10,277-INFO-Column Transforming is done
+2026-02-18 20:35:10,277-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:10,292-INFO-Fittig model is done
+2026-02-18 20:35:10,297-INFO-Prediction is done with model Desicion_Tree
+2026-02-18 20:35:10,303-INFO-Metrics are calculated SUCCESSFFULLY for Desicion_Tree
+2026-02-18 20:35:10,304-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:35:10,315-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:10,316-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:10,316-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:10,316-INFO-Column Transforming is done
+2026-02-18 20:35:10,316-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:10,330-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:10,330-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:10,331-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:10,331-INFO-Column Transforming is done
+2026-02-18 20:35:10,331-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:10,754-INFO-Fittig model is done
+2026-02-18 20:35:10,768-INFO-Prediction is done with model XGBoost
+2026-02-18 20:35:10,774-INFO-Metrics are calculated SUCCESSFFULLY for XGBoost
+2026-02-18 20:35:10,776-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:35:10,790-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:10,790-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:10,790-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:10,790-INFO-Column Transforming is done
+2026-02-18 20:35:10,790-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:10,804-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:10,805-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:10,805-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:10,805-INFO-Column Transforming is done
+2026-02-18 20:35:10,805-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:11,749-INFO-Fittig model is done
+2026-02-18 20:35:11,754-INFO-Prediction is done with model Logistic_OvR
+2026-02-18 20:35:11,760-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvR
+2026-02-18 20:35:11,762-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:35:11,774-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:11,775-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:11,775-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:11,775-INFO-Column Transforming is done
+2026-02-18 20:35:11,775-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:11,786-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:35:11,787-INFO-Numerical pipeline is DONE
+2026-02-18 20:35:11,787-INFO-Categorical pipeline is DONE
+2026-02-18 20:35:11,787-INFO-Column Transforming is done
+2026-02-18 20:35:11,787-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:35:12,850-INFO-Fittig model is done
+2026-02-18 20:35:12,857-INFO-Prediction is done with model Logistic_OvO
+2026-02-18 20:35:12,863-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvO
+2026-02-18 20:35:12,865-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:36:58,061-INFO-Pipeline Building has been started
+2026-02-18 20:37:00,307-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:00,308-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:00,308-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:00,308-INFO-Column Transforming is done
+2026-02-18 20:37:00,308-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:00,320-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:00,320-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:00,320-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:00,320-INFO-Column Transforming is done
+2026-02-18 20:37:00,320-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:00,709-INFO-Fittig model is done
+2026-02-18 20:37:00,748-INFO-Prediction is done with model Random_Forest
+2026-02-18 20:37:00,755-INFO-Metrics are calculated SUCCESSFFULLY for Random_Forest
+2026-02-18 20:37:00,758-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:37:00,770-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:00,770-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:00,770-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:00,770-INFO-Column Transforming is done
+2026-02-18 20:37:00,770-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:00,782-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:00,782-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:00,782-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:00,783-INFO-Column Transforming is done
+2026-02-18 20:37:00,783-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:00,800-INFO-Fittig model is done
+2026-02-18 20:37:00,806-INFO-Prediction is done with model Desicion_Tree
+2026-02-18 20:37:00,811-INFO-Metrics are calculated SUCCESSFFULLY for Desicion_Tree
+2026-02-18 20:37:00,813-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:37:00,826-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:00,826-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:00,826-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:00,826-INFO-Column Transforming is done
+2026-02-18 20:37:00,826-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:00,837-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:00,838-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:00,838-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:00,838-INFO-Column Transforming is done
+2026-02-18 20:37:00,838-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:01,117-INFO-Fittig model is done
+2026-02-18 20:37:01,130-INFO-Prediction is done with model XGBoost
+2026-02-18 20:37:01,137-INFO-Metrics are calculated SUCCESSFFULLY for XGBoost
+2026-02-18 20:37:01,139-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:37:01,152-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:01,152-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:01,152-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:01,152-INFO-Column Transforming is done
+2026-02-18 20:37:01,152-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:01,163-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:01,163-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:01,163-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:01,163-INFO-Column Transforming is done
+2026-02-18 20:37:01,163-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:02,072-INFO-Fittig model is done
+2026-02-18 20:37:02,077-INFO-Prediction is done with model Logistic_OvR
+2026-02-18 20:37:02,082-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvR
+2026-02-18 20:37:02,083-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:37:02,094-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:02,094-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:02,095-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:02,095-INFO-Column Transforming is done
+2026-02-18 20:37:02,095-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:02,106-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:37:02,106-INFO-Numerical pipeline is DONE
+2026-02-18 20:37:02,106-INFO-Categorical pipeline is DONE
+2026-02-18 20:37:02,106-INFO-Column Transforming is done
+2026-02-18 20:37:02,106-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:37:03,129-INFO-Fittig model is done
+2026-02-18 20:37:03,136-INFO-Prediction is done with model Logistic_OvO
+2026-02-18 20:37:03,141-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvO
+2026-02-18 20:37:03,142-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:37:41,545-INFO-Pipeline Building has been started
+2026-02-18 20:38:06,922-INFO-Pipeline Building has been started
+2026-02-18 20:45:51,664-INFO-Pipeline Building has been started
+2026-02-18 20:46:10,300-INFO-Pipeline Building has been started
+2026-02-18 20:46:12,477-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:12,478-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:12,478-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:12,478-INFO-Column Transforming is done
+2026-02-18 20:46:12,478-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:12,489-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:12,489-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:12,489-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:12,489-INFO-Column Transforming is done
+2026-02-18 20:46:12,489-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:12,766-INFO-Fittig model is done
+2026-02-18 20:46:12,807-INFO-Prediction is done with model Random_Forest
+2026-02-18 20:46:12,814-INFO-Metrics are calculated SUCCESSFFULLY for Random_Forest
+2026-02-18 20:46:12,817-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:46:12,830-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:12,831-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:12,831-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:12,831-INFO-Column Transforming is done
+2026-02-18 20:46:12,831-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:12,845-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:12,845-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:12,845-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:12,846-INFO-Column Transforming is done
+2026-02-18 20:46:12,846-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:12,865-INFO-Fittig model is done
+2026-02-18 20:46:12,870-INFO-Prediction is done with model Desicion_Tree
+2026-02-18 20:46:12,875-INFO-Metrics are calculated SUCCESSFFULLY for Desicion_Tree
+2026-02-18 20:46:12,877-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:46:12,888-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:12,889-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:12,889-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:12,889-INFO-Column Transforming is done
+2026-02-18 20:46:12,889-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:12,899-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:12,900-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:12,900-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:12,900-INFO-Column Transforming is done
+2026-02-18 20:46:12,900-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:13,181-INFO-Fittig model is done
+2026-02-18 20:46:13,194-INFO-Prediction is done with model XGBoost
+2026-02-18 20:46:13,201-INFO-Metrics are calculated SUCCESSFFULLY for XGBoost
+2026-02-18 20:46:13,203-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:46:13,217-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:13,218-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:13,218-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:13,218-INFO-Column Transforming is done
+2026-02-18 20:46:13,218-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:13,276-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:13,276-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:13,276-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:13,277-INFO-Column Transforming is done
+2026-02-18 20:46:13,277-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:14,193-INFO-Fittig model is done
+2026-02-18 20:46:14,198-INFO-Prediction is done with model Logistic_OvR
+2026-02-18 20:46:14,203-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvR
+2026-02-18 20:46:14,205-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:46:14,219-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:14,219-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:14,219-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:14,219-INFO-Column Transforming is done
+2026-02-18 20:46:14,219-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:14,233-INFO-Oversampling is done: Max.Intensity
+0    1067
+1    1067
+2    1067
+3    1067
+4    1067
+Name: count, dtype: int64
+2026-02-18 20:46:14,233-INFO-Numerical pipeline is DONE
+2026-02-18 20:46:14,234-INFO-Categorical pipeline is DONE
+2026-02-18 20:46:14,234-INFO-Column Transforming is done
+2026-02-18 20:46:14,234-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:46:15,251-INFO-Fittig model is done
+2026-02-18 20:46:15,258-INFO-Prediction is done with model Logistic_OvO
+2026-02-18 20:46:15,263-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvO
+2026-02-18 20:46:15,264-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:49:37,143-INFO-Pipeline Building has been started
+2026-02-18 20:51:30,893-INFO-Pipeline Building has been started
+2026-02-18 20:51:37,256-INFO-Pipeline Building has been started
+2026-02-18 20:51:37,264-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,264-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,264-INFO-Column Transforming is done
+2026-02-18 20:51:37,264-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:37,265-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,265-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,265-INFO-Column Transforming is done
+2026-02-18 20:51:37,266-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:37,390-INFO-Fittig model is done
+2026-02-18 20:51:37,421-INFO-Prediction is done with model Random_Forest
+2026-02-18 20:51:37,427-INFO-Metrics are calculated SUCCESSFFULLY for Random_Forest
+2026-02-18 20:51:37,429-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:51:37,431-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,431-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,431-INFO-Column Transforming is done
+2026-02-18 20:51:37,431-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:37,432-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,432-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,432-INFO-Column Transforming is done
+2026-02-18 20:51:37,432-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:37,438-INFO-Fittig model is done
+2026-02-18 20:51:37,441-INFO-Prediction is done with model Desicion_Tree
+2026-02-18 20:51:37,445-INFO-Metrics are calculated SUCCESSFFULLY for Desicion_Tree
+2026-02-18 20:51:37,447-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:51:37,449-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,450-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,450-INFO-Column Transforming is done
+2026-02-18 20:51:37,450-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:37,451-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,451-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,451-INFO-Column Transforming is done
+2026-02-18 20:51:37,451-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:37,664-INFO-Fittig model is done
+2026-02-18 20:51:37,674-INFO-Prediction is done with model XGBoost
+2026-02-18 20:51:37,680-INFO-Metrics are calculated SUCCESSFFULLY for XGBoost
+2026-02-18 20:51:37,682-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:51:37,684-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,684-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,684-INFO-Column Transforming is done
+2026-02-18 20:51:37,684-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:37,685-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:37,685-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:37,685-INFO-Column Transforming is done
+2026-02-18 20:51:37,685-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:38,097-INFO-Fittig model is done
+2026-02-18 20:51:38,101-INFO-Prediction is done with model Logistic_OvR
+2026-02-18 20:51:38,105-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvR
+2026-02-18 20:51:38,107-INFO-Metrics are savded at C:\project_5\Metrics
+2026-02-18 20:51:38,108-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:38,108-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:38,109-INFO-Column Transforming is done
+2026-02-18 20:51:38,109-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:38,110-INFO-Numerical pipeline is DONE
+2026-02-18 20:51:38,110-INFO-Categorical pipeline is DONE
+2026-02-18 20:51:38,110-INFO-Column Transforming is done
+2026-02-18 20:51:38,110-INFO-PIPELINE building is DONE SUCCESSFULLY
+2026-02-18 20:51:38,633-INFO-Fittig model is done
+2026-02-18 20:51:38,639-INFO-Prediction is done with model Logistic_OvO
+2026-02-18 20:51:38,643-INFO-Metrics are calculated SUCCESSFFULLY for Logistic_OvO
+2026-02-18 20:51:38,644-INFO-Metrics are savded at C:\project_5\Metrics

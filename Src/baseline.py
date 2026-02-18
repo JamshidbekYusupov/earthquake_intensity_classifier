@@ -53,13 +53,6 @@ class auto_pipeline(BaseEstimator):
 
             maps = {'Ⅰ': 0, 'Ⅱ': 1, 'Ⅲ':2, 'Ⅳ': 3, 'Ⅴ': 4}
             y = y.map(maps)
-# Oversamling with SMOTE inside Pipeline
-                        ##### IMPORTAN#######
-            smote = SMOTE(random_state=42,k_neighbors=1)
-            X, y = smote.fit_resample(X, y)
-
-            logging.info(f'Oversampling is done: {y.value_counts()}')
-
             num_cols = X.select_dtypes(include=[np.number]).columns.to_list()
             cat_cols = X.select_dtypes(exclude=[np.number]).columns.to_list()
 
@@ -80,9 +73,6 @@ class auto_pipeline(BaseEstimator):
             ])
             logging.info('Column Transforming is done')
             logging.info('PIPELINE building is DONE SUCCESSFULLY')
-
-            # self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y,test_size=0.2, random_state=42)
-            
             return X, y
         
         except Exception as e:
@@ -103,7 +93,6 @@ class auto_pipeline(BaseEstimator):
                 ('preprocessor', self.preprocessor),
                 ('model', self.model_algorithm)
             ])
-        
             self.model.fit(self.X_train, self.y_train)
 
             logging.info('Fittig model is done')

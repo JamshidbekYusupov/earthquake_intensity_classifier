@@ -6,12 +6,12 @@ from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
+sys.path.append(r'C:\project_5')
+from Src.baseline import auto_pipeline
 
 
-
-df = pd.read_csv(r'C:\project_5\Data\Raw_data\Raw_data.csv')
-
-# df = pd.read_csv(data_path)
+url = r'C:\project_5\Data\Raw_data\Raw_data.csv'
+df = pd.read_csv(url)
 
 target = 'Max.Intensity'
 
@@ -20,14 +20,9 @@ models = {
     'Random_Forest': RandomForestClassifier(),
     'Desicion_Tree': DecisionTreeClassifier(),
     'XGBoost': XGBClassifier(),
-    'Logistic_Reg': LogisticRegression(),
     'Logistic_OvR': LogisticRegression(max_iter=1500, random_state=42),
     'Logistic_OvO': LogisticRegression(max_iter=1500, random_state=42)
 }
-
-sys.path.append(r'C:\project_5')
-
-from Src.baseline import auto_pipeline
 
 for name, model in models.items():
 
@@ -37,16 +32,16 @@ for name, model in models.items():
     if name == 'Logistic_OvO':
         model = OneVsOneClassifier(model)
 
-    au = auto_pipeline(df, target=target, model=model, model_name=name)
+    baseline = auto_pipeline(df, target=target, model=model, model_name=name)
 
-    au.feature_prepare()
+    baseline.feature_prepare()
 
-    au.fit()
+    baseline.fit()
 
-    au.model_saving()
+    baseline.model_saving()
 
-    au.prediction()
+    baseline.prediction()
 
-    au.evaluvation()
+    baseline.evaluvation()
 
-    au.metrics_saving()
+    baseline.metrics_saving()
